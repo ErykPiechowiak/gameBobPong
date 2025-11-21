@@ -1,0 +1,8 @@
+../Core/Src/main.c:461:13:taskGameLogic	16	static
+../Core/Src/main.c:171:6:SystemClock_Config	96	static,ignoring_inline_asm
+../Core/Src/main.c:445:6:ADC_SetActiveChannel	24	static,ignoring_inline_asm
+../Core/Src/main.c:472:13:taskGetUserInput	56	static
+../Core/Src/main.c:116:5:main	136	static,ignoring_inline_asm
+../Core/Src/main.c:533:6:vApplicationGetIdleTaskMemory	0	static
+../Core/Src/main.c:584:6:HAL_TIM_PeriodElapsedCallback	0	static
+../Core/Src/main.c:601:6:Error_Handler	0	static,ignoring_inline_asm

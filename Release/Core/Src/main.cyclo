@@ -1,0 +1,8 @@
+../Core/Src/main.c:461:13:taskGameLogic	1
+../Core/Src/main.c:171:6:SystemClock_Config	4
+../Core/Src/main.c:445:6:ADC_SetActiveChannel	2
+../Core/Src/main.c:472:13:taskGetUserInput	2
+../Core/Src/main.c:116:5:main	8
+../Core/Src/main.c:533:6:vApplicationGetIdleTaskMemory	1
+../Core/Src/main.c:584:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:601:6:Error_Handler	1
