@@ -16,6 +16,11 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+/*GAME ID*/
+
+const uint32_t game_id __attribute__((section(".my_flash_var"))) = 0xAAAAAA01;
+
+
 /* GAME VARIABLES */
 static PLAYER player1, player2;
 static BALL ball;

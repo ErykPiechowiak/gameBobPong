@@ -62,6 +62,9 @@ UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
 //test
+
+
+
 static USER_INPUT uInput;
 static USER_INPUT uInputOld;
 static StaticTask_t xIdleTaskTCBBuffer;

@@ -56,8 +56,10 @@ ENTRY(Reset_Handler)
 MEMORY
 {
 RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 20K
-FLASH (rx)      : ORIGIN = 0x8010000, LENGTH = 64K
+FLASH (rx)      : ORIGIN = 0x08010000, LENGTH = 64K
 }
+
+
 
 /* Highest address of the user mode stack */
 _estack = ORIGIN(RAM) + LENGTH(RAM);    /* end of RAM */
@@ -68,6 +70,10 @@ _Min_Stack_Size = 0x400; /* required amount of stack */
 /* Define output sections */
 SECTIONS
 {
+
+
+  
+
   /* The startup code goes first into FLASH */
   .isr_vector :
   {
@@ -245,5 +251,10 @@ SECTIONS
     libm.a:* ( * )
     libgcc.a:* ( * )
   }
+
+  .my_flash_var 0x0801FFFC :
+  {
+      KEEP(*(.my_flash_var))
+  } >FLASH
 
 }

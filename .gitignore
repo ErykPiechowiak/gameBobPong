@@ -1,1 +1,6 @@
 /Debug/
+.vscode/
+.settings/
+build/
+Debug/
+Release/
