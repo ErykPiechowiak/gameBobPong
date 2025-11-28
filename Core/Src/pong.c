@@ -18,7 +18,7 @@
 
 /*GAME ID*/
 
-const uint32_t game_id __attribute__((section(".my_flash_var"))) = 0xAAAAAA01;
+const uint32_t game_id __attribute__((section(".my_flash_var"))) = 0x00000001;
 
 
 /* GAME VARIABLES */
